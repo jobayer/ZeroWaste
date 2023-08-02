@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ZeroWaste" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ZeroWaste" parent="Base.Theme.ZeroWaste" />
+
+    <style name="RoundCornersDialog" parent="Theme.Material3.Light.Dialog.Alert">
+        <item name="dialogCornerRadius">8dp</item>
+    </style>
+
+    <style name="Theme.ZeroWaste.ToolbarTextStyle" parent="TextAppearance.Material3.ActionBar.Title">
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

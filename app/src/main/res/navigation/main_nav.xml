@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ac.bd.bracu.zerowaste.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_statFragment"
+            app:destination="@id/statFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_donationFragment"
+            app:destination="@id/donationFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/statFragment"
+        android:name="ac.bd.bracu.zerowaste.ui.fragments.StatFragment"
+        android:label="fragment_stat"
+        tools:layout="@layout/fragment_stat" />
+
+    <fragment
+        android:id="@+id/donationFragment"
+        android:name="ac.bd.bracu.zerowaste.ui.fragments.DonationFragment"
+        android:label="fragment_donation"
+        tools:layout="@layout/fragment_donation" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ac.bd.bracu.zerowaste.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
