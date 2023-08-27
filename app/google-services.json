@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "214570245394",
+    "firebase_url": "https://zerowaste-bracu-default-rtdb.firebaseio.com",
+    "project_id": "zerowaste-bracu",
+    "storage_bucket": "zerowaste-bracu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214570245394:android:6bddec4d9facf3136b27cb",
+        "android_client_info": {
+          "package_name": "com.bracu.zerowaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214570245394-82o4n3h2jnc48nvqklpvq4q40f2ria67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bracu.zerowaste",
+            "certificate_hash": "9f2221a29ddb7c8dd9d50c8660d18589f4b66c08"
+          }
+        },
+        {
+          "client_id": "214570245394-sqja58b8bthlbp302re7grpsumkg6jiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeHt1-b--8i9hT-Xi2qqkZP0St5Lha9is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214570245394-fn7nok1m7csp3r7ppvftc4kp119qukst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

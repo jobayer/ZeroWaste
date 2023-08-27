@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.DonationFragment">
+    tools:context="com.android.zerowaste.com.bracu.zerowaste.ui.fragments.DonationFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

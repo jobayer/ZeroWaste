@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:title="Support">
+        <menu>
+            <item
+                android:icon="@drawable/ic_tutorial"
+                android:title="Tutorial" />
+
+            <item
+                android:icon="@drawable/ic_tips"
+                android:title="Tips &amp; Tricks" />
+
+            <item
+                android:icon="@drawable/ic_contact"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+    <item android:title="Miscellaneous">
+        <menu>
+            <item
+                android:icon="@drawable/ic_google_play"
+                android:title="Rate Us" />
+
+            <item
+                android:icon="@drawable/ic_suggestion"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
 </menu>

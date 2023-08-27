@@ -2,7 +2,10 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.ZeroWaste" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="font">@font/roboto_condensed_regular</item>
+        <item name="fontFamily">@font/roboto_condensed_regular</item>
+        <item name="android:fontFamily">@font/roboto_condensed_regular</item>
     </style>
 
     <style name="Theme.ZeroWaste" parent="Base.Theme.ZeroWaste" />
@@ -13,6 +16,15 @@
 
     <style name="Theme.ZeroWaste.ToolbarTextStyle" parent="TextAppearance.Material3.ActionBar.Title">
         <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="RoundedCornersDialog" parent="@style/Theme.Material3.DayNight.Dialog.Alert">
+        <item name="dialogCornerRadius">16dp</item>
+    </style>
+
+    <style name="TransparentDialog" parent="RoundedCornersDialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 
 </resources>

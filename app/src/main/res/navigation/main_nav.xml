@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="ac.bd.bracu.zerowaste.ui.fragments.HomeFragment"
+        android:name="com.bracu.zerowaste.ui.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
 
@@ -27,19 +27,19 @@
 
     <fragment
         android:id="@+id/statFragment"
-        android:name="ac.bd.bracu.zerowaste.ui.fragments.StatFragment"
+        android:name="com.bracu.zerowaste.ui.fragments.StatFragment"
         android:label="fragment_stat"
         tools:layout="@layout/fragment_stat" />
 
     <fragment
         android:id="@+id/donationFragment"
-        android:name="ac.bd.bracu.zerowaste.ui.fragments.DonationFragment"
+        android:name="com.bracu.zerowaste.ui.fragments.DonationFragment"
         android:label="fragment_donation"
         tools:layout="@layout/fragment_donation" />
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="ac.bd.bracu.zerowaste.ui.fragments.ProfileFragment"
+        android:name="com.bracu.zerowaste.ui.fragments.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 
